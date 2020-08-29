@@ -1,0 +1,19 @@
+{
+  "name": "youtubeviewer",
+  "version": "1.0.0",
+  "description": "youtubeviewer React, nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosuketter/youtubeviewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryosuketter/youtubeviewer/issues"
+  },
+  "homepage": "https://github.com/ryosuketter/youtubeviewer#readme"
+}
