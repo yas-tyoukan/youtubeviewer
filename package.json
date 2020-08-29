@@ -17,11 +17,14 @@
   },
   "homepage": "https://github.com/ryosuketter/youtubeviewer#readme",
   "dependencies": {
+    "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "regenerator-runtime": "^0.13.7"
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",

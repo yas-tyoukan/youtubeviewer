@@ -12,3 +12,9 @@ $ npm i react@^16.12.0 react-dom@^16.12.0 core-js@^3.6.4 regenerator-runtime@^0.
 ```sh
 $ npm i -D @babel/core@^7.8.3 @babel/register@^7.8.3 @babel/preset-env@^7.8.3 @babel/preset-react@^7.8.3 @babel/cli@^7.8.3
 ```
+
+## Webpackのインストール
+
+```sh
+$ npm install webpack@4.42.0 webpack-cli@3.3.11 babel-loader@8.1.0
+```
