@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ryosuketter/youtubeviewer#readme",
   "dependencies": {
+    "@bit/ryosuketter.components.badge": "0.0.1",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
     "express": "^4.17.1",
@@ -37,6 +38,9 @@
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
-    "@babel/register": "^7.10.5"
+    "@babel/register": "^7.10.5",
+    "css-loader": "^4.2.2",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1"
   }
 }

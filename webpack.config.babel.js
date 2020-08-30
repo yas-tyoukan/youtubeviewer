@@ -9,6 +9,10 @@ export default (env, args) => {
       test: /\.jsx?$/,
       use: ["babel-loader"],
     },
+    {
+      test: /\.(sass|css|scss)$/,
+      use: ["style-loader", "css-loader"],
+    },
   ];
 
   return {
