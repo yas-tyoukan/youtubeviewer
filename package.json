@@ -8,7 +8,9 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "watch": "npm run build:dev -- --watch",
-    "start": "node ."
+    "start": "node .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,10 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
+    "@storybook/addon-actions": "^6.0.20",
+    "@storybook/addon-links": "^6.0.20",
+    "@storybook/addons": "^6.0.20",
+    "@storybook/react": "^6.0.20",
     "css-loader": "^4.2.2",
     "sass-loader": "^10.0.1",
     "style-loader": "^1.2.1"
