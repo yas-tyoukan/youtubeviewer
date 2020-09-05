@@ -56,3 +56,6 @@ You may need an appropriate loader to handle this file type, currently no loader
 $ npm i styled-components@5.0.1
 $ npm i -D babel-plugin-styled-components@1.10.7
 ```
+
+## トップページの作成を Atomic Design で実装
+
