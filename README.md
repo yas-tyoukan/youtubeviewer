@@ -47,3 +47,12 @@ You may need an appropriate loader to handle this file type, currently no loader
 |   padding: 8px 5px;
  @ ./node_modules/@bit/ryosuketter.components.badge/dist/Badge.js 14:0-23
 ```
+
+## styled-componentsの導入
+
+実行コマンド
+
+```sh
+$ npm i styled-components@5.0.1
+$ npm i -D babel-plugin-styled-components@1.10.7
+```

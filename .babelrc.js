@@ -1,29 +1,42 @@
 module.exports = (api) => {
-  const isProduction = api.env('production');
+  const isProduction = api.env("production");
   api.cache(true);
   const presets = [
     [
-      '@babel/preset-env',
+      "@babel/preset-env",
       {
         targets: {
-          chrome: '79',
-          ie: '11',
-          firefox: '72',
-          safari: '13',
+          chrome: "79",
+          ie: "11",
+          firefox: "72",
+          safari: "13",
         },
-        useBuiltIns: 'entry',
+        useBuiltIns: "entry",
         corejs: 3,
       },
     ],
     [
-      '@babel/preset-react',
+      "@babel/preset-react",
       {
         development: !isProduction,
       },
     ],
   ];
 
-  const plugins = [];
+  const plugins = [
+    [
+      "babel-plugin-styled-components",
+      isProduction
+        ? {
+            fileName: false,
+            displayName: false,
+            pure: true,
+          }
+        : {
+            minify: false,
+          },
+    ],
+  ];
 
   return {
     presets,
