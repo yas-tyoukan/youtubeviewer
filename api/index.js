@@ -1,12 +1,10 @@
 const express = require("express");
 const { google } = require("googleapis");
-import { API } from "./secretData.json";
-
-const YOUTUBE_API_KEY = API.key;
+const REACT_APP_YOUTUBE_API_KEY = "AIzaSyCCVbaUVJRZ23dTiekEQWD1qrluis3YOPs";
 
 const youtube = google.youtube({
   version: "v3",
-  auth: YOUTUBE_API_KEY,
+  auth: REACT_APP_YOUTUBE_API_KEY,
 });
 
 const router = express.Router();

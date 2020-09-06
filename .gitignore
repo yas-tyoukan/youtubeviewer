@@ -2,10 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/react,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,node
 
-## ???
+## githubにあげたくないデータ
 
-secretData.json
-secretMemo.md
+.env*
 
 ### Node ###
 # Logs
