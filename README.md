@@ -59,3 +59,16 @@ $ npm i -D babel-plugin-styled-components@1.10.7
 
 ## トップページの作成を Atomic Design で実装
 
+## YouTube APIを使った検索API実装
+
+### YouTube API Keyの発行
+
+YouTube API Keyの発行
+
+https://console.developers.google.com/
+
+### 必要なパッケージのインストール
+
+```sh
+$ npm i googleapis
+```
