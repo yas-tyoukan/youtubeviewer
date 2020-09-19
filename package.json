@@ -29,6 +29,7 @@
     "core-js": "^3.6.5",
     "express": "^4.17.1",
     "googleapis": "^59.0.0",
+    "moment": "^2.28.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
